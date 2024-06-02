@@ -153,13 +153,15 @@ function TierList() {
                             >
                                 {(provided) => (
                                     <div
-                                        className=" text-black p-4 items-center flex gap-1 h-28"
+                                        className="  p-4 my-1 items-center flex gap-1 h-28"
                                         ref={provided.innerRef}
                                         {...provided.droppableProps}
                                         style={{ backgroundColor: tier.color }}
+                                        
                                     >
                                         <h2 className=" w-20 min-w-max border-r-2">
                                             {tier.name}
+                                            
                                         </h2>
                                         {tier.items.map((item, idx) => (
                                             <Draggable
