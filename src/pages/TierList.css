@@ -1,0 +1,11 @@
+#camera-feed {
+  position: absolute;
+  right: 120px; /* Align to the right */
+  bottom: 100px; /* 100px above the bottom */
+     /* Background color for visibility */
+  color: white; /* Text color */
+  /* padding: 10px 50px; Padding around the text */
+  /* height: 400px; */
+  width: 380px;
+  border-radius: 5%;
+}
