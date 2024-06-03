@@ -11,7 +11,8 @@ export const tierSlice = createSlice({
         addTier: (state, action) => {
             const tier= {
                 id: nanoid(),
-                text: action.payload
+                text: action.payload,
+                color: action.payload
 
             }
             state.tiers.push(tier)
